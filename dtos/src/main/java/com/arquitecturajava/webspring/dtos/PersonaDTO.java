@@ -1,6 +1,8 @@
 package com.arquitecturajava.webspring.dtos;
 
-public class PersonaDTO {
+import java.io.Serializable;
+
+public class PersonaDTO implements Serializable{
 	
 	private String nombre;
 
